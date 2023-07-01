@@ -1,13 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/pathway-extreme" type="text/css"/>
     <link rel="stylesheet" href="styles.css">
     <title>Admin Dashboard</title>
 </head>
+
 <body>
 
-    <div class="header">Header</div>
-    
+    <div class="container">
+
+        <div class="header">
+
+            <div class="header-up">
+
+                <div class="search-bar">
+
+                    <img src="img/magnify.svg">
+                    <input type="text">
+
+                </div>
+
+                <div class="header-up-right">
+
+                    <img src="img/bell-ring-outline.svg">
+                    <img src="img/luke.png" class="user-right">
+                    <div>Luke Fon Fabre</div>
+
+                </div>
+
+            </div>
+
+            <div class="header-bottom">
+
+                <div class="header-btm-left">
+
+                    <div class="user-profile">
+
+                        <img src="img/luke.png" class="user-btm">
+
+                    </div>
+
+                    <div class="greet-user">
+
+                        <div>Hi there,</div>
+                        <div class="username">Luke Fon Fabre (@luke)</div>
+
+                    </div>
+
+                </div>
+
+                <div class="header-btm-right">
+
+                    <div class="user-buttons">
+
+                        <button class="btn-margin">New</button>
+                        <button class="btn-margin">Upload</button>
+                        <button>Share</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="sidebar">
+
+            <div class="side-title">
+
+                <div class="side-dash">
+
+                    <img src="img/view-dashboard.svg">
+                    <div>Dashboard</div>
+
+                </div>
+
+            </div>
+
+            <div class="side-nav">
+
+                <div class="nav">
+
+                    <img src="img/home-variant.svg" width="20" height="20">
+                    <div>Home</div>
+
+                </div>
+
+                <div class="nav">
+
+                    <img src="img/card-account-details-outline.svg">
+                    <div>Profile</div>
+
+                </div>
+
+                <div class="nav">
+
+                    <img src="img/message-reply.svg">
+                    <div>Messages</div>
+
+                </div>
+
+                <div class="nav">
+
+                    <img src="img/clock-time-three.svg">
+                    <div>History</div>
+
+                </div>
+
+                <div class="nav">
+
+                    <img src="img/file-multiple.svg">
+                    <div>Tasks</div>
+
+                </div>
+
+                <div class="nav">
+
+                    <img src="img/account-group.svg">
+                    <div>Communities</div>
+
+                </div>
+
+            </div>
+
+            <div class="side-settings">
+
+                <div class="nav">
+
+                    <img src="img/cog.svg">
+                    <div>Settings</div>
+
+                </div>
+
+                <div class="nav">
+
+                    <img src="img/help-box.svg">
+                    <div>Support</div>
+
+                </div>
+
+                <div class="nav">
+
+                    <img src="img/shield-check.svg">
+                    <div>Privacy</div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="main-content">
+
+            <div class="main-left">
+
+                <div class="main-title">Your Projects</div>
+                <div class="projects">
+
+                    <div class="card">
+
+                        <div class="card-title">Super Cool Project</div>
+                        <div class="card-text">Ut interdum eget risus at finibus. Vestibulum feugiat elit in libero venenatis ultrices.
+                            Aliquam vestibulum blandit ultricies. Proin placerat sit amet libero vitae tempus.</div>
+
+                        <div class="card-img">
+                            <img src="img/star-plus-outline.svg">
+                            <img src="img/eye-plus-outline.svg">
+                            <img src="img/source-fork.svg">
+                        </div>
+
+
+                    </div>
+
+                    <div class="card">
+
+                        <div class="card-title">Less Cool Project</div>
+                        <div class="card-text">Aliquam rhoncus erat et dictum fermentum. Donec lobortis magna nunc, eget sagittis sem
+                            dictum nec. Sed accumsan dui vel dignissim aliquam. Vestibulum id viverra metus.</div>
+                        <div class="card-img">
+                            <img src="img/star-plus-outline.svg">
+                            <img src="img/eye-plus-outline.svg">
+                            <img src="img/source-fork.svg">
+                        </div>
+
+                    </div>
+
+                    <div class="card">
+
+
+
+                        <div class="card-title">Impossible App</div>
+                        <div class="card-text">Suspendisse viverra nec diam in bibendum. Aenean malesuada eros vitae odio dapibus, vel
+                            facilisis est faucibus. Donec ultricies egestas quam eu vehicula. Etiam a eleifend
+                            augue,
+                            commodo placerat metus. </div>
+
+
+
+                        <div class="card-img">
+                            <img src="img/star-plus-outline.svg">
+                            <img src="img/eye-plus-outline.svg">
+                            <img src="img/source-fork.svg">
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="card">
+
+                        <div class="card-title">Easy Peasy App</div>
+                        <div class="card-text">Praesent interdum commodo blandit. Maecenas tempor semper malesuada. Sed vitae sapien eu
+                            sem gravida semper. Fusce dapibus rutrum turpis quis pulvinar.</div>
+                        <div class="card-img">
+                            <img src="img/star-plus-outline.svg">
+                            <img src="img/eye-plus-outline.svg">
+                            <img src="img/source-fork.svg">
+                        </div>
+
+                    </div>
+
+                    <div class="card">
+
+                        <div class="card-title">Add Blocker</div>
+                        <div class="card-text">Mauris imperdiet dapibus diam, eget mattis nisi. Duis vitae neque ac mauris fermentum
+                            dictum ac nec nisi. Donec pharetra bibendum elementum.</div>
+                        <div class="card-img">
+                            <img src="img/star-plus-outline.svg">
+                            <img src="img/eye-plus-outline.svg">
+                            <img src="img/source-fork.svg">
+                        </div>
+
+                    </div>
+
+                    <div class="card">
+
+                        <div class="card-title">Money Maker</div>
+                        <div class="card-text">Phasellus libero ipsum, convallis nec risus quis, porttitor ullamcorper lectus.</div>
+                        <div class="card-img">
+                            <img src="img/star-plus-outline.svg">
+                            <img src="img/eye-plus-outline.svg">
+                            <img src="img/source-fork.svg">
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="main-right">
+
+                <div class="main-title">Announcements</div>
+                <div class="announcement">
+
+                    <div class="info">
+
+                        <div class="announce-title">Site Maintenance</div>
+                        <div>Nulla bibendum odio lorem, vel finibus elit maximus ac. Suspendisse turpis nulla, tincidunt
+                            non dolor sed, luctus imperdiet dolor...</div>
+
+                    </div>
+
+                    <div class="info">
+
+                        <div class="announce-title">Community Share Day</div>
+                        <div>Aenean eu dolor at justo sollicitudin sollicitudin id eu neque. Proin lacinia elit ac nunc
+                            pharetra, sed lacinia lacus placerat...</div>
+
+                    </div>
+
+                    <div class="info">
+
+                        <div class="announce-title">Updated Privacy Policy</div>
+                        <div>Nam sit amet erat sit amet libero auctor maximus ut ac velit. Aliquam ipsum nibh, luctus
+                            quis molestie nec, pretium non lectus...</div>
+
+                    </div>
+
+                </div>
+
+                <div class="main-title">Trending</div>
+                <div class="trending">
+
+
+
+                    <div class="trend">
+                        <img src="img/jade.jpg" class="img-trend">
+                        <div>
+                            <div class="trend-user">@jade</div>
+                            <div>World Peace Builder</div>
+                        </div>
+                    </div>
+
+                    <div class="trend">
+                        <img src="img/natalia.jpg" class="img-trend">
+                        <div>
+                            <div class="trend-user">@natalia</div>
+                            <div>Super Cool Project</div>
+                        </div>
+                    </div>
+
+                    <div class="trend">
+                        <img src="img/guy.jpg" class="img-trend">
+                        <div>
+                            <div class="trend-user">@guy</div>
+                            <div>Life Changing App</div>
+                        </div>
+                    </div>
+
+                    <div class="trend">
+                        <img src="img/tear.jpg" class="img-trend">
+                        <div>
+                            <div class="trend-user">@tear</div>
+                            <div>No Traffic Maker</div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+
 </body>
+
 </html>
